@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/test/java/com/prachi/portfolio_backend/PortfolioBackendApplicationTests.java",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1767983777053,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1767983777053,
+            "name": "Commit-0",
+            "content": "package com.prachi.portfolio_backend;\n\n\nimport org.springframework.boot.SpringApplication;\nimport org.springframework.boot.autoconfigure.SpringBootApplication;\n\n@SpringBootApplication(scanBasePackages = {\"com.prachi\"})\npublic class PortfolioBackendApplication {\n\n\tpublic static void main(String[] args) {\n\t\tSpringApplication.run(PortfolioBackendApplication.class, args);\n\t}\n}\n"
+        }
+    ]
+}

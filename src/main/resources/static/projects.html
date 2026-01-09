@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects | Prachi Solanki</title>
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-slate-100 text-gray-800">
+
+<!-- NAVBAR -->
+<nav class="bg-sky-700 text-white px-4 md:px-10 py-3 flex justify-between items-center fixed w-full top-0 z-50 shadow">
+  <h1 class="text-2xl font-bold">Prachi</h1>
+  <ul class="hidden md:flex space-x-6">
+    <li><a href="index.html" class="hover:text-slate-900">About</a></li>
+    <li><a href="skills.html" class="hover:text-slate-900">Skills</a></li>
+    <li><a href="education.html" class="hover:text-slate-900">Education</a></li>
+    <li><a href="projects.html" class="text-slate-900 font-semibold">Projects</a></li>
+    <li><a href="certificate.html" class="hover:text-slate-900">Certificate</a></li>
+    <li><a href="contact.html" class="hover:text-slate-900">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HEADER -->
+<section class="text-center pt-16 pb-8 px-4">
+  <h2 class="text-3xl md:text-4xl font-bold mb-2">
+    My <span class="text-sky-600">Projects</span>
+  </h2>
+  <p class="text-gray-600 max-w-xl mx-auto text-sm md:text-base">
+    Academic and personal projects demonstrating my Java, OOP, and backend development skills.
+  </p>
+</section>
+
+<!-- PROJECTS SECTION -->
+<section class="max-w-6xl mx-auto px-4 pb-12">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+    <!-- PROJECT CARD -->
+    <div class="bg-white rounded-2xl shadow p-6 hover:shadow-lg transition">
+      <h3 class="text-xl font-semibold text-sky-600 mb-2">
+        Bank Management System
+      </h3>
+
+      <p class="text-gray-700 text-sm mb-3">
+        A Java-based desktop application that simulates core banking operations such as
+        account creation, login authentication, deposits, withdrawals, balance enquiry,
+        and mini statement generation.
+      </p>
+
+      <ul class="text-sm text-gray-700 mb-4 space-y-1">
+        <li>✔ Developed using Core Java and OOP principles</li>
+        <li>✔ Secure login using PIN authentication</li>
+        <li>✔ File handling used for data persistence</li>
+        <li>✔ Modular and user-friendly design</li>
+      </ul>
+
+      <div class="flex flex-wrap gap-2 mb-4">
+        <span class="bg-sky-100 text-sky-700 px-3 py-1 rounded-full text-xs">Java</span>
+        <span class="bg-sky-100 text-sky-700 px-3 py-1 rounded-full text-xs">OOP</span>
+        <span class="bg-sky-100 text-sky-700 px-3 py-1 rounded-full text-xs">File Handling</span>
+        <span class="bg-sky-100 text-sky-700 px-3 py-1 rounded-full text-xs">Swing</span>
+      </div>
+
+      <a href="https://github.com/Prachisolnki/Bank-Management-System-"
+         target="_blank"
+         class="inline-block bg-sky-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-sky-700 transition">
+        View on GitHub
+      </a>
+    </div>
+
+  </div>
+</section>
+<script src="script.js"></script>
+</body>
+</html>

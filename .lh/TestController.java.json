@@ -1,0 +1,34 @@
+{
+    "sourceFile": "TestController.java",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 4,
+            "patches": [
+                {
+                    "date": 1767954731706,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1767954741512,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,19 @@\n+package com.prachi.portfoliobackend.controller;\r\n \r\n+import org.springframework.web.bind.annotation.GetMapping;\r\n+import org.springframework.web.bind.annotation.RestController;\r\n+\r\n+@RestController\r\n+public class TestController {\r\n+\r\n+    @GetMapping(\"/\")\r\n+    public String home() {\r\n+        return \"Portfolio Backend is running!\";\r\n+    }\r\n+\r\n+    @GetMapping(\"/api/hello\")\r\n+    public String hello() {\r\n+        return \"Hello from Portfolio Backend!\";\r\n+    }\r\n+}\r\n+\r\n"
+                },
+                {
+                    "date": 1767954825874,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,19 +0,0 @@\n-package com.prachi.portfoliobackend.controller;\r\n-\r\n-import org.springframework.web.bind.annotation.GetMapping;\r\n-import org.springframework.web.bind.annotation.RestController;\r\n-\r\n-@RestController\r\n-public class TestController {\r\n-\r\n-    @GetMapping(\"/\")\r\n-    public String home() {\r\n-        return \"Portfolio Backend is running!\";\r\n-    }\r\n-\r\n-    @GetMapping(\"/api/hello\")\r\n-    public String hello() {\r\n-        return \"Hello from Portfolio Backend!\";\r\n-    }\r\n-}\r\n-\r\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1767954831385,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,46 @@\n+package com.prachi.portfoliobackend.controller;\r\n+\r\n+import org.springframework.web.bind.annotation.GetMapping;\r\n+import org.springframework.web.bind.annotation.PostMapping;\r\n+import org.springframework.web.bind.annotation.RequestBody;\r\n+import org.springframework.web.bind.annotation.RestController;\r\n+\r\n+import java.util.ArrayList;\r\n+import java.util.List;\r\n+import java.util.Map;\r\n+\r\n+@RestController\r\n+public class TestController {\r\n+\r\n+    // Home endpoint\r\n+    @GetMapping(\"/\")\r\n+    public String home() {\r\n+        return \"Portfolio Backend is running!\";\r\n+    }\r\n+\r\n+    // Simple hello endpoint\r\n+    @GetMapping(\"/api/hello\")\r\n+    public String hello() {\r\n+        return \"Hello from Portfolio Backend!\";\r\n+    }\r\n+\r\n+    // Sample projects endpoint\r\n+    @GetMapping(\"/api/projects\")\r\n+    public List<Map<String, String>> getProjects() {\r\n+        List<Map<String, String>> projects = new ArrayList<>();\r\n+        projects.add(Map.of(\"id\", \"1\", \"name\", \"Bank Management System\", \"tech\", \"Java, OOP, File Handling\"));\r\n+        projects.add(Map.of(\"id\", \"2\", \"name\", \"Portfolio Website\", \"tech\", \"HTML, CSS, JS, Spring Boot\"));\r\n+        return projects;\r\n+    }\r\n+\r\n+    // Contact form simulation endpoint\r\n+    @PostMapping(\"/api/contact\")\r\n+    public String contact(@RequestBody Map<String, String> contactForm) {\r\n+        String name = contactForm.getOrDefault(\"name\", \"Unknown\");\r\n+        String email = contactForm.getOrDefault(\"email\", \"Unknown\");\r\n+        String message = contactForm.getOrDefault(\"message\", \"No message\");\r\n+\r\n+        // Here you could add mail sending logic\r\n+        return \"Thanks \" + name + \"! Your message has been received.\";\r\n+    }\r\n+}\r\n"
+                },
+                {
+                    "date": 1767954836641,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,4 +43,5 @@\n         // Here you could add mail sending logic\r\n         return \"Thanks \" + name + \"! Your message has been received.\";\r\n     }\r\n }\r\n+s\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1767954731706,
+            "name": "Commit-0",
+            "content": "public class TestController {\r\n    \r\n}\r\n"
+        }
+    ]
+}

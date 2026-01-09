@@ -1,0 +1,26 @@
+{
+    "sourceFile": "pom.xml",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1767954674940,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1767954680008,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,63 @@\n+<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n+<project xmlns=\"http://maven.apache.org/POM/4.0.0\" \n+         xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n+         xsi:schemaLocation=\"http://maven.apache.org/POM/4.0.0 \n+         https://maven.apache.org/xsd/maven-4.0.0.xsd\">\n+    <modelVersion>4.0.0</modelVersion>\n+\n+    <parent>\n+        <groupId>org.springframework.boot</groupId>\n+        <artifactId>spring-boot-starter-parent</artifactId>\n+        <version>4.0.1</version>\n+        <relativePath/> \n+    </parent>\n+\n+    <groupId>com.prachi</groupId>\n+    <artifactId>portfolio-backend</artifactId>\n+    <version>0.0.1-SNAPSHOT</version>\n+    <name>portfolio-backend</name>\n+    <description>Portfolio Backend Project</description>\n+\n+    <properties>\n+        <java.version>17</java.version>\n+    </properties>\n+\n+    <dependencies>\n+        <!-- Spring Boot Web for REST endpoints -->\n+        <dependency>\n+            <groupId>org.springframework.boot</groupId>\n+            <artifactId>spring-boot-starter-web</artifactId>\n+        </dependency>\n+\n+        <!-- Spring Boot Mail -->\n+        <dependency>\n+            <groupId>org.springframework.boot</groupId>\n+            <artifactId>spring-boot-starter-mail</artifactId>\n+        </dependency>\n+\n+        <!-- DevTools for development -->\n+        <dependency>\n+            <groupId>org.springframework.boot</groupId>\n+            <artifactId>spring-boot-devtools</artifactId>\n+            <scope>runtime</scope>\n+            <optional>true</optional>\n+        </dependency>\n+\n+        <!-- Test dependency -->\n+        <dependency>\n+            <groupId>org.springframework.boot</groupId>\n+            <artifactId>spring-boot-starter-test</artifactId>\n+            <scope>test</scope>\n+        </dependency>\n+    </dependencies>\n+\n+    <build>\n+        <plugins>\n+            <plugin>\n+                <groupId>org.springframework.boot</groupId>\n+                <artifactId>spring-boot-maven-plugin</artifactId>\n+            </plugin>\n+        </plugins>\n+    </build>\n+\n+</project>\n"
+                },
+                {
+                    "date": 1767954686902,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,63 @@\n+<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n+<project xmlns=\"http://maven.apache.org/POM/4.0.0\" \n+         xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n+         xsi:schemaLocation=\"http://maven.apache.org/POM/4.0.0 \n+         https://maven.apache.org/xsd/maven-4.0.0.xsd\">\n+    <modelVersion>4.0.0</modelVersion>\n+\n+    <parent>\n+        <groupId>org.springframework.boot</groupId>\n+        <artifactId>spring-boot-starter-parent</artifactId>\n+        <version>4.0.1</version>\n+        <relativePath/> \n+    </parent>\n+\n+    <groupId>com.prachi</groupId>\n+    <artifactId>portfolio-backend</artifactId>\n+    <version>0.0.1-SNAPSHOT</version>\n+    <name>portfolio-backend</name>\n+    <description>Portfolio Backend Project</description>\n+\n+    <properties>\n+        <java.version>17</java.version>\n+    </properties>\n+\n+    <dependencies>\n+        <!-- Spring Boot Web for REST endpoints -->\n+        <dependency>\n+            <groupId>org.springframework.boot</groupId>\n+            <artifactId>spring-boot-starter-web</artifactId>\n+        </dependency>\n+\n+        <!-- Spring Boot Mail -->\n+        <dependency>\n+            <groupId>org.springframework.boot</groupId>\n+            <artifactId>spring-boot-starter-mail</artifactId>\n+        </dependency>\n+\n+        <!-- DevTools for development -->\n+        <dependency>\n+            <groupId>org.springframework.boot</groupId>\n+            <artifactId>spring-boot-devtools</artifactId>\n+            <scope>runtime</scope>\n+            <optional>true</optional>\n+        </dependency>\n+\n+        <!-- Test dependency -->\n+        <dependency>\n+            <groupId>org.springframework.boot</groupId>\n+            <artifactId>spring-boot-starter-test</artifactId>\n+            <scope>test</scope>\n+        </dependency>\n+    </dependencies>\n+\n+    <build>\n+        <plugins>\n+            <plugin>\n+                <groupId>org.springframework.boot</groupId>\n+                <artifactId>spring-boot-maven-plugin</artifactId>\n+            </plugin>\n+        </plugins>\n+    </build>\n+\n+</project>\n"
+                }
+            ],
+            "date": 1767954674940,
+            "name": "Commit-0",
+            "content": ""
+        }
+    ]
+}

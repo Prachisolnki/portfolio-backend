@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | Prachi Solanki</title>
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-slate-100 text-gray-800">
+
+<!-- NAVBAR -->
+<nav class="bg-sky-600 text-white px-4 md:px-10 py-3 flex justify-between items-center fixed w-full top-0 z-50 shadow">
+  <h1 class="text-2xl font-bold">Prachi</h1>
+  <ul class="hidden md:flex space-x-6">
+    <li><a href="index.html" class="hover:text-slate-900">About</a></li>
+    <li><a href="skills.html" class="hover:text-slate-900">Skills</a></li>
+    <li><a href="education.html" class="hover:text-slate-900">Education</a></li>
+    <li><a href="projects.html" class="hover:text-slate-900">Projects</a></li>
+    <li><a href="certificate.html" class="hover:text-slate-900">Certificate</a></li>
+    <li><a href="contact.html" class="text-slate-900 font-semibold">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HEADER -->
+<section class="text-center pt-16 pb-8 px-4">
+  <h2 class="text-3xl md:text-4xl font-bold mb-2">
+    Contact <span class="text-sky-600">Me</span>
+  </h2>
+  <p class="text-gray-600 max-w-xl mx-auto text-sm md:text-base">
+    Feel free to reach out for internships, projects, or collaboration opportunities.
+  </p>
+</section>
+
+<!-- CONTACT SECTION -->
+<section class="max-w-6xl mx-auto px-4 pb-12">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+    <!-- CONTACT INFO -->
+    <div class="bg-white rounded-2xl shadow p-6">
+      <h3 class="text-xl font-semibold text-sky-600 mb-4">Get in Touch</h3>
+
+      <p class="mb-3">
+        <strong>Email:</strong><br>
+        <span class="text-gray-700">prachisolanki17679gmail.com</span>
+      </p>
+
+      <p class="mb-3">
+        <strong>Location:</strong><br>
+        <span class="text-gray-700">Indore, Madhya Pradesh, India</span>
+      </p>
+
+      <p class="mb-3">
+        <strong>GitHub:</strong><br>
+        <a href="https://github.com/Prachisolnki" target="_blank"
+           class="text-sky-600 hover:underline">
+          github.com/Prachisolnki
+        </a>
+      </p>
+
+      <p>
+        <strong>LinkedIn:</strong><br>
+        <a href="#" class="text-sky-600 hover:underline">
+          https://www.linkedin.com/in/prachi-solanki-685332287/
+        </a>
+      </p>
+    </div>
+
+    <!-- CONTACT FORM -->
+    <div class="bg-white rounded-2xl shadow p-6">
+      <h3 class="text-xl font-semibold text-sky-600 mb-4">Send a Message</h3>
+
+      <form id ="contactForm">
+        <div class="mb-4">
+          <label class="block text-sm font-medium mb-1">Your Name</label>
+          <input type="text" placeholder="Enter your name"
+            class="w-full border rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-sky-500">
+        </div>
+
+        <div class="mb-4">
+          <label class="block text-sm font-medium mb-1">Your Email</label>
+          <input type="email" placeholder="Enter your email"
+            class="w-full border rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-sky-500">
+        </div>
+
+        <div class="mb-4">
+          <label class="block text-sm font-medium mb-1">Message</label>
+          <textarea rows="4" placeholder="Write your message"
+            class="w-full border rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-sky-500"></textarea>
+        </div>
+
+        <button type="submit"
+          class="bg-sky-600 text-white px-5 py-2 rounded-lg hover:bg-sky-700 transition">
+          Send Message
+        </button>
+      </form>
+    </div>
+
+  </div>
+</section>
+<script src="script.js"></script>
+</body>
+</html>
